@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import Modal from './Modal';
 
 const Products = () => {
 
@@ -19,10 +20,10 @@ const Products = () => {
             <div className="bg-white py-6 sm:py-8 lg:py-12">
                 <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
 
-                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 md:gap-x-10 gap-y-8 justify-center">
+                    <div className="grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-x-4 md:gap-x-10 gap-y-8 justify-center">
                         {
-                            products.map(e => {
-                                const { product_name, original_price, resale_price, location, mobile, PurchaseYear, condition, image_url, _id } = e;
+                            products.map(product => {
+                                const { product_name, original_price, resale_price, location, mobile, PurchaseYear, condition, image_url, _id } = product;
                                 return (
 
                                     <div key={_id}>
@@ -65,7 +66,7 @@ const Products = () => {
                                             <div>
                                                 <label
                                                     htmlFor="my-modal-3"
-                                                    // onClick={() => setBooking(e)}
+                                                     //onClick={() => setBooking(product)}
                                                     className="group relative inline-block text-sm font-medium text-white focus:outline-none focus:ring"
                                                 >
                                                     <span
@@ -79,7 +80,7 @@ const Products = () => {
                                                 </label>
                                             </div>
                                         </div>
-                                        {/* <Modal product={e}></Modal> */}
+                                        <Modal product={product}></Modal>
                                     </div>
                                 )
                             })
