@@ -1,0 +1,146 @@
+[
+    {
+    "product_name": "De Frost Refrigerator",
+    "original_price": "22899",
+    "resale_price": "10200",
+    "location": "Dhaka",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Good",
+    "category_id": "1",
+    "image_url": "https://static-01.daraz.com.bd/p/60c5d85e639eb173ede472c93107b5e5.jpg",
+    "posted_time": "11/11/2022",
+    "seller_name":"Ratan",
+    "email": "ratan@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "De Frost Refrigerator",
+    "original_price": "30990",
+    "resale_price": "12500",
+    "location": "Cantonment",
+    "mobile": "123456789",
+    "PurchaseYear": "1",
+    "condition": "Excellent",
+    "category_id": "1",
+    "image_url": "https://static-01.daraz.com.bd/p/f167037149eee337693bc4c1ba4e4fda.jpg",
+    "posted_time": "19/09/2022",
+    "seller_name":"Raju",
+    "email": "raju@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "De Frost Refrigerator",
+    "original_price": "23911",
+    "resale_price": "8000",
+    "location": "Gazipur",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Good",
+    "category_id": "1",
+    "image_url": "https://static-01.daraz.com.bd/p/mdc/755106e7ddda7b08096519524460c472.jpg",
+    "posted_time": "22/11/2022",
+    "seller_name":"Sezen",
+    "email": "sezn@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "No Frost Refrigerator",
+    "original_price": "26190",
+    "resale_price": "9500",
+    "location": "Soniakhra",
+    "mobile": "123456636",
+    "PurchaseYear": "3",
+    "condition": "Excellent",
+    "category_id": "2",
+    "image_url": "https://static-01.daraz.com.bd/p/9f85b087cd76cda4b0ae66dbabd2cd1b.jpg",
+    "posted_time": "10/10/2022",
+    "seller_name":"Awalad",
+    "email": "awalad@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "No Frost Refrigerator",
+    "original_price": "33299",
+    "resale_price": "10000",
+    "location": "Kolta bazer",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Good",
+    "category_id": "2",
+    "image_url": "https://static-01.daraz.com.bd/p/072420462fe5c11ff85f1b93aa1f9d6e.jpg",
+    "posted_time": "03/06/2022",
+    "seller_name":"Rasel",
+    "email": "rasel@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "No Frost Refrigerator",
+    "original_price": "45000",
+    "resale_price": "23000",
+    "location": "Sylhet",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Good",
+    "category_id": "2",
+    "image_url": "https://static-01.daraz.com.bd/p/ea45307453da379cdf63089d55a053fc",
+    "posted_time": "14/11/2022",
+    "seller_name":"Forhad",
+    "email": "forhad@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "Deep Refrigerator",
+    "original_price": "45000",
+    "resale_price": "23000",
+    "location": "Borishal",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Excellent",
+    "category_id": "3",
+    "image_url": "https://static-01.daraz.com.bd/p/97e96df039cc5c225080e69535cf78f0.jpg",
+    "posted_time": "14/11/2022",
+    "seller_name":"Rafi",
+    "email": "rafi@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "Deep Refrigerator",
+    "original_price": "27999",
+    "resale_price": "8500",
+    "location": "Chitagong",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Good",
+    "category_id": "3",
+    "image_url": "https://static-01.daraz.com.bd/p/8469ae96d7edda3b18c7c8203a42cea6.jpg",
+    "posted_time": "20/12/2022",
+    "seller_name":"Hasan",
+    "email": "hasan@gmail.com",
+    "isAdvertised": "true"
+    },
+    
+    {
+    "product_name": "Deep Refrigerator",
+    "original_price": "39990",
+    "resale_price": "15000",
+    "location": "Dhaka",
+    "mobile": "123456789",
+    "PurchaseYear": "2",
+    "condition": "Good",
+    "category_id": "3",
+    "image_url": "https://static-01.daraz.com.bd/p/3506c31ccfedf27f02faff0cb296a220.jpg",
+    "posted_time": "10/09/2022",
+    "seller_name":"Jubair",
+    "email": "jubair@gmail.com",
+    "isAdvertised": "true"
+    }
+    ]
+    
