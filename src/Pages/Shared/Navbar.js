@@ -1,17 +1,38 @@
-import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link} from 'react-router-dom';
+import { AuthContext } from '../../contexts/UserContexts';
 
 const Navbar = () => {
 
-    // const  handleLogOut = (e) => {
-    //    e.preventDefault();
-    // }
+    const {user, logOut} = useContext(AuthContext);
 
+    const handleLogOut = () => {
+      logOut()
+      .then(() => { })
+      .catch(e => console.log(e))
+    }
+    
     const menuItems = <>
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/blog">Blog</Link></li>
+      
+        {
+            user?.uid ?
+           <>
+           <li><Link to="/dashboard">Dashboard</Link></li>
+           <button onClick={handleLogOut} type="button" title="Log Out" className="w-full py-3 px-6 text-center transition dark:bg-gray-700 bg-gray-900 hover:bg-gray-800 active:bg-gray-700 focus:bg-gray-800 md:w-max">
+            <span className="block text-white font-semibold">
+                Log Out
+            </span>
+        </button>
+            
+           </>
+            
+            :
+            
         <li><Link to="/login">Login</Link></li>
-        <li><Link to="/register">Register</Link></li>
+            
+        }
     </>
     return (
 

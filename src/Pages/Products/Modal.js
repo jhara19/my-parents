@@ -25,7 +25,20 @@ const Modal = ({booking,setBooking}) => {
     
     console.log(booking);
 
-    setBooking(null);
+    fetch("http://localhost:5000/bookings", {
+        method: "POST",
+            headers: {
+                "content-type": "application/json"
+            },
+            body: JSON.stringify(booking)
+        })
+            .then((res) => res.json())
+            .then((data) => {
+                console.log(data);
+                alert("Product Booking Successfully");
+            });
+
+    //setBooking(null);
   }
 
     return (
@@ -47,8 +60,8 @@ const Modal = ({booking,setBooking}) => {
                                 <span className="text-gray-800 lg:text-lg font-bold">${original_price}</span>
                             </div>
                         </div>
-                       <input type="text" name='name' placeholder="Type Name" className="input w-full input-bordered" />
-                       <input type="email" name='email' placeholder="Type Your Email" className="input w-full input-bordered" />
+                       <input type="text" name='name' defaultValue={user?.displayName} disabled placeholder="Type Name" className="input w-full input-bordered" />
+                       <input type="email" name='email' defaultValue={user?.email} disabled placeholder="Type Your Email" className="input w-full input-bordered" />
                        <input type="text" name='location' placeholder="Type Your Location" className="input w-full input-bordered" />
                        <input type="text" name='phone' placeholder="Type Your Phone Number" className="input w-full input-bordered" />
                        <input className='w-full max-w-xs btn btn-success' type="submit" value="Submit" />

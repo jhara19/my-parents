@@ -36,11 +36,11 @@ const googleProvider = new GoogleAuthProvider();
     };
 
     // sign out
+
     const logOut = () => {
         setLoading(true);
         return signOut(auth)
-            .then(() => { })
-            .catch((err) => { console.error(err) });
+            
     };
 
     useEffect(() => {
@@ -55,10 +55,10 @@ const googleProvider = new GoogleAuthProvider();
 
 const authInfo = {
     user,
-    logOut,
     registerEmailAndPassword,
     loginWithEmailAndPassword,
     updateUserProfile,
+    logOut,
     googleSignIn
 }
 
