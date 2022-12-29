@@ -38,7 +38,7 @@ const Modal = ({booking,setBooking}) => {
                 alert("Product Booking Successfully");
             });
 
-    //setBooking(null);
+    setBooking(null);
   }
 
     return (
